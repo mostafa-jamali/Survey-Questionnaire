@@ -1,0 +1,116 @@
+.soallyfooter-start {
+  width: 60vw;
+  position: absolute;
+  bottom: 0;
+}
+
+.soallyfooter-start p {
+  text-align: center;
+  direction: rtl;
+  margin-top: .5rem;
+  font-size: 0.8rem;
+  color: #ffffff;
+}
+
+.soallyfooter-start .footer-intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.soallyfooter-start .footer-intro p {
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.soallyfooter-start .footer-intro button {
+  color: #ffffff;
+  font-family: HouseScript;
+  font-size: 1.4rem;
+  background-image: linear-gradient(to left, #f197bd, #ed865d);
+  border-radius: 2rem 1rem 1rem 1rem;
+  padding: 0 0.5rem 0 0.5rem;
+  cursor: pointer;
+  transition: .5s;
+  border: none;
+}
+
+.soallyfooter-start .footer-intro button:hover {
+  background-image: linear-gradient(to right, #f197bd, #ed865d);
+}
+
+.soallyfooter-ques {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+@media (min-width: 992px) {
+  .soallyfooter-ques {
+    width: 15%;
+  }
+}
+
+@media (max-width: 992px) {
+  .soallyfooter-ques {
+    width: 22%;
+  }
+}
+
+@media (max-width: 768px) {
+  .soallyfooter-ques {
+    width: 30%;
+  }
+}
+
+@media (max-width: 576px) {
+  .soallyfooter-ques {
+    width: 38%;
+  }
+}
+
+@media (max-width: 400px) {
+  .soallyfooter-ques {
+    width: 55%;
+  }
+}
+
+.soallyfooter-ques p {
+  text-align: center;
+  direction: rtl;
+  margin-top: .5rem;
+  font-size: 0.6rem;
+  color: #ffffff;
+}
+
+.soallyfooter-ques .footer-intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.soallyfooter-ques .footer-intro p {
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.soallyfooter-ques .footer-intro button {
+  color: #ffffff;
+  font-family: HouseScript;
+  font-size: 1.4rem;
+  background-image: linear-gradient(to left, #f197bd, #ed865d);
+  border-radius: 2rem 1rem 1rem 1rem;
+  padding: 0 0.5rem 0 0.5rem;
+  cursor: pointer;
+  transition: .5s;
+  border: none;
+}
+
+.soallyfooter-ques .footer-intro button:hover {
+  background-image: linear-gradient(to right, #f197bd, #ed865d);
+}
+/*# sourceMappingURL=SoallyFooter.css.map */

@@ -1,0 +1,11 @@
+.startPageTop {
+  position: absolute;
+  top: 20%;
+}
+
+.startPageTop h1 {
+  font-weight: bold;
+  color: #e3e3e3;
+  text-align: center;
+}
+/*# sourceMappingURL=StartPage.css.map */

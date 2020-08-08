@@ -1,0 +1,43 @@
+.startLogo {
+  width: 17rem;
+}
+
+.quesLogo {
+  width: 30%;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  margin: 10px;
+}
+
+.quesLogo {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  margin: 10px;
+}
+
+@media (min-width: 992px) {
+  .quesLogo {
+    width: 12%;
+  }
+}
+
+@media (max-width: 992px) {
+  .quesLogo {
+    width: 20%;
+  }
+}
+
+@media (max-width: 767px) {
+  .quesLogo {
+    width: 25%;
+  }
+}
+
+@media (max-width: 400px) {
+  .quesLogo {
+    width: 30%;
+  }
+}
+/*# sourceMappingURL=Logo.css.map */

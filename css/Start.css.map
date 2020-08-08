@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,UAAU;EACN,WAAW,EAAE,SAAS;EACtB,GAAG,EAAE,6CAA6C;;;AAEpD,UAAU;EACR,WAAW,EAAE,WAAW;EACxB,GAAG,EAAE,yDAAyD;;;AAEhE,AAAA,CAAC,CAAA;EACC,WAAW,EAAE,SAAS;CACvB",
+    "sources": [
+        "../src/Components/Start/Start.scss"
+    ],
+    "names": [],
+    "file": "Start.css"
+}

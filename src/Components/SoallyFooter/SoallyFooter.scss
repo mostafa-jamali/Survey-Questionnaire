@@ -1,0 +1,101 @@
+.soallyfooter-start {
+    width: 60vw;
+    position: absolute;
+    bottom: 0;
+
+    p {
+      text-align: center;
+      direction: rtl;
+      margin-top: .5rem;
+      font-size: 0.8rem;
+      color: #ffffff;
+    }
+
+    .footer-intro {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      p {
+        color: #ffffff;
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin: 0px;
+      }
+
+      button {
+        color: #ffffff;
+        font-family: HouseScript;
+        font-size: 1.4rem;
+        background-image: linear-gradient(to left, #f197bd, #ed865d);
+        border-radius: 2rem 1rem 1rem 1rem;
+        padding: 0 0.5rem 0 0.5rem;
+        cursor: pointer;
+        transition: .5s;
+        border: none;
+
+        &:hover {
+          background-image: linear-gradient(to right, #f197bd, #ed865d);
+        }
+      }
+    }
+  }
+
+
+  .soallyfooter-ques {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    @media (min-width: '992px') {
+      width: 15%;
+    }
+    @media (max-width: '992px') {
+      width: 22%;
+    }
+    @media (max-width: '768px') {
+      width: 30%;
+    }
+    @media (max-width: '576px') {
+      width: 38%;
+    }
+    @media (max-width: '400px') {
+      width: 55%;
+    }
+
+    p {
+      text-align: center;
+      direction: rtl;
+      margin-top: .5rem;
+      font-size: 0.6rem;
+      color: #ffffff;
+    }
+
+    .footer-intro {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      p {
+        color: #ffffff;
+        font-size: 0.9rem;
+        font-weight: 600;
+        margin: 0px;
+      }
+
+      button {
+        color: #ffffff;
+        font-family: HouseScript;
+        font-size: 1.4rem;
+        background-image: linear-gradient(to left, #f197bd, #ed865d);
+        border-radius: 2rem 1rem 1rem 1rem;
+        padding: 0 0.5rem 0 0.5rem;
+        cursor: pointer;
+        transition: .5s;
+        border: none;
+
+        &:hover {
+          background-image: linear-gradient(to right, #f197bd, #ed865d);
+        }
+      }
+    }
+  }
