@@ -1,0 +1,14 @@
+.endPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    h1{
+        position: absolute;
+        top: 25%;
+        direction: rtl;
+        font-weight: bold;
+        color: #e3e3e3;
+    }
+}

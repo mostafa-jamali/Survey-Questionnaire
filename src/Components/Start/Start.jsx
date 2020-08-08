@@ -7,13 +7,13 @@ import {
     Route,
 } from "react-router-dom";
 import StartPage from '../../views/StartPage/StartPage';
-import Questions from '../../views/Questions/Questions'
+import Questions from '../../views/Questions/Questions';
+import Answers from '../Answers/Answers';
 import './Start.scss'
 
 
 function Start() {
     const [initialData, setInitialData] = useState({});
-    const [Level, SetLevel] = useState(0);
 
     useEffect(() => {
         setInitialData({
@@ -24,7 +24,7 @@ function Start() {
             background_url: `https://picsum.photos/${window.innerWidth}/${window.innerHeight}/?blur=10`,
             questions: [
                 {
-                    id: "k23e2",
+                    id: "soal-1",
                     text: "آیا از خدمات مشتریان راضی هستید ؟",
                     options: [
                         { key: 1, text: "عالیه" },
@@ -33,7 +33,7 @@ function Start() {
                     ]
                 },
                 {
-                    id: "k23e3",
+                    id: "soal-2",
                     text: "از هزینه‌های سفرها راضی هستید ؟",
                     options: [
                         { key: 1, text: "بله" },
@@ -42,7 +42,7 @@ function Start() {
                     ]
                 },
                 {
-                    id: "k23e4",
+                    id: "soal-3",
                     text: "میزان تأخیر راننده تا رسیدن به مبدأ شما چقدر است ؟",
                     options: [
                         { key: 1, text: "زیاد" },
@@ -51,7 +51,7 @@ function Start() {
                     ]
                 },
                 {
-                    id: "k23e5",
+                    id: "soal-4",
                     text: "در مجموع از کیفیت خدمات اسنپ رضایت دارید ؟",
                     options: [
                         { key: 1, text: "بله" },
@@ -69,11 +69,11 @@ function Start() {
                 <Background Background={initialData.background_url} />
                 <Switch>
                     <Route exact path="/">
-                        <StartPage initialData={initialData} />
+                        <StartPage initialData={initialData} questoinId={initialData.questions} />
                     </Route>
 
                     <Route path="/questions/:id" render={props => (<Questions {...props} initialData={initialData} Questions={initialData.questions} />)} />
-
+                    <Route path="/questions-result" component={Answers} />
                 </Switch>
             </Container>
         </Router>

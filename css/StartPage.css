@@ -1,6 +1,7 @@
 .startPageTop {
   position: absolute;
   top: 20%;
+  padding: 10px;
 }
 
 .startPageTop h1 {

@@ -4,7 +4,7 @@ import StartButton from '../../Components/StartButton/StartButton';
 import SoallyFooter from '../../Components/SoallyFooter/SoallyFooter';
 import './StartPage.scss'
 
-function StartPage({ initialData }) {
+function StartPage({ initialData, questoinId }) {
     const [startPage, setStartPage] = useState(true)
 
     return (
@@ -12,7 +12,7 @@ function StartPage({ initialData }) {
             <div className="d-flex flex-column align-items-center startPageTop">
                 <h1>{initialData.intro}</h1>
                 <Logo logoSrc={initialData.logo_url} startPage={startPage} />
-                <StartButton setStartPage={setStartPage} />
+                <StartButton questoinId={questoinId} setStartPage={setStartPage} />
             </div>
             <SoallyFooter startPage={startPage} />
         </div>

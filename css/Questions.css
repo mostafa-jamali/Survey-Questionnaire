@@ -1,4 +1,23 @@
-.footer {
-  margin-bottom: 0px;
+.questions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20%;
+  text-align: center;
+}
+
+.questions h1 {
+  font-weight: bold;
+  color: #e3e3e3;
+}
+
+.questions .answers {
+  margin-top: 3%;
+}
+
+.questions .answers .answer-button {
+  border: none;
+  border-radius: 44px;
+  background-color: #df5e88;
 }
 /*# sourceMappingURL=Questions.css.map */
