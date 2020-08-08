@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Survey-Questionnaire/static/css/main.feaf5fbc.chunk.css",
+    "main.js": "/Survey-Questionnaire/static/js/main.1abbc0cf.chunk.js",
+    "main.js.map": "/Survey-Questionnaire/static/js/main.1abbc0cf.chunk.js.map",
+    "runtime-main.js": "/Survey-Questionnaire/static/js/runtime-main.b61095a1.js",
+    "runtime-main.js.map": "/Survey-Questionnaire/static/js/runtime-main.b61095a1.js.map",
+    "static/css/2.11829350.chunk.css": "/Survey-Questionnaire/static/css/2.11829350.chunk.css",
+    "static/js/2.f4f30119.chunk.js": "/Survey-Questionnaire/static/js/2.f4f30119.chunk.js",
+    "static/js/2.f4f30119.chunk.js.map": "/Survey-Questionnaire/static/js/2.f4f30119.chunk.js.map",
+    "index.html": "/Survey-Questionnaire/index.html",
+    "precache-manifest.cfbef2ba3ec8af1e9638eb57886317f2.js": "/Survey-Questionnaire/precache-manifest.cfbef2ba3ec8af1e9638eb57886317f2.js",
+    "service-worker.js": "/Survey-Questionnaire/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/Survey-Questionnaire/static/css/2.11829350.chunk.css.map",
+    "static/css/main.feaf5fbc.chunk.css.map": "/Survey-Questionnaire/static/css/main.feaf5fbc.chunk.css.map",
+    "static/js/2.f4f30119.chunk.js.LICENSE.txt": "/Survey-Questionnaire/static/js/2.f4f30119.chunk.js.LICENSE.txt",
+    "static/media/Start.scss": "/Survey-Questionnaire/static/media/YekanBakh-Regular.7296ae79.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b61095a1.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.f4f30119.chunk.js",
+    "static/css/main.feaf5fbc.chunk.css",
+    "static/js/main.1abbc0cf.chunk.js"
+  ]
+}
