@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import { Container } from 'reactstrap';
 import Background from '../Background/Background';
 import {
     BrowserRouter as Router,
@@ -8,8 +8,7 @@ import {
 } from "react-router-dom";
 import StartPage from '../../views/StartPage/StartPage';
 import Questions from '../../views/Questions/Questions';
-import Answers from '../Answers/Answers';
-import './Start.scss'
+import './Start.scss';
 
 
 function Start() {
@@ -65,15 +64,13 @@ function Start() {
 
     return (
         <Router>
-            <Container id="main" fluid={true} className="d-flex flex-column alin-items-center">
+            <Container fluid={true} className="d-flex flex-column alin-items-center">
                 <Background Background={initialData.background_url} />
                 <Switch>
+                    <Route path="/questions/:id" render={props => (<Questions {...props} initialData={initialData} Questions={initialData.questions} />)} />
                     <Route exact path="/">
                         <StartPage initialData={initialData} questoinId={initialData.questions} />
                     </Route>
-
-                    <Route path="/questions/:id" render={props => (<Questions {...props} initialData={initialData} Questions={initialData.questions} />)} />
-                    <Route path="/questions-result" component={Answers} />
                 </Switch>
             </Container>
         </Router>
