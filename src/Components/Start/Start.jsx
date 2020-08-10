@@ -24,38 +24,56 @@ function Start() {
             questions: [
                 {
                     id: "soal-1",
-                    text: "آیا از خدمات مشتریان راضی هستید ؟",
+                    text: "از کارکرد کلی اپلیکیشن مسافر اسنپ راضی هستین ؟",
                     options: [
-                        { key: 1, text: "عالیه" },
-                        { key: 2, text: "خوبه" },
-                        { key: 3, text: "ضعیفه" },
+                        { key: 1, text: "بله" },
+                        { key: 2, text: "خیر" },
+                        { key: 3, text: "تا حدودی" },
                     ]
                 },
                 {
                     id: "soal-2",
-                    text: "از هزینه‌های سفرها راضی هستید ؟",
+                    text: "نرخ اعلام شده اسنپ برای جابه جایی از بقیه اپ های مشابه بیشتر است؟ ",
                     options: [
                         { key: 1, text: "بله" },
-                        { key: 2, text: "تقریبا" },
-                        { key: 3, text: "اصلا" },
+                        { key: 2, text: "خیر" },
+                        { key: 3, text: "فرقی نداره" },
                     ]
                 },
                 {
                     id: "soal-3",
-                    text: "میزان تأخیر راننده تا رسیدن به مبدأ شما چقدر است ؟",
+                    text: "به نظر شما امتیاز دادن به راننده اثری داشته تا حالا؟",
                     options: [
-                        { key: 1, text: "زیاد" },
-                        { key: 2, text: "متوسط" },
-                        { key: 3, text: "کم" },
+                        { key: 1, text: "آره" },
+                        { key: 2, text: "نظر ندارم" },
+                        { key: 3, text: "نه" },
                     ]
                 },
                 {
                     id: "soal-4",
-                    text: "در مجموع از کیفیت خدمات اسنپ رضایت دارید ؟",
+                    text: "از چه طریقی با اسنپ آشنا شدید؟",
                     options: [
-                        { key: 1, text: "بله" },
-                        { key: 2, text: "تقریبا" },
-                        { key: 3, text: "خیر" },
+                        { key: 1, text: "دوستان" },
+                        { key: 2, text: "سایت‌ها" },
+                        { key: 3, text: "سایر" },
+                    ]
+                },
+                {
+                    id: "soal-5",
+                    text: "در چه مکان‌هایی بیشتر درخواست اسنپ میدین؟",
+                    options: [
+                        { key: 1, text: "خانه" },
+                        { key: 2, text: "دانشگاه" },
+                        { key: 3, text: "محل کار" },
+                    ]
+                },
+                {
+                    id: "soal-6",
+                    text: "به نظر خودتون اسنپ رو به دیگران پیشنهاد میدین ؟",
+                    options: [
+                        { key: 1, text: "خیر" },
+                        { key: 2, text: "بله" },
+                        { key: 3, text: "شاید" },
                     ]
                 },
             ]
@@ -68,7 +86,7 @@ function Start() {
                 <Background Background={initialData.background_url} />
                 <Switch>
                     <Route path="/questions/:id" render={props => (<Questions {...props} initialData={initialData} Questions={initialData.questions} />)} />
-                    <Route exact path="/">
+                    <Route path="/">
                         <StartPage initialData={initialData} questoinId={initialData.questions} />
                     </Route>
                 </Switch>

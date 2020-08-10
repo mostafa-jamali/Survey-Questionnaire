@@ -90,7 +90,7 @@ ColorlibStepIcon.propTypes = {
 };
 
 function getSteps() {
-    return ['', '', '', ''];
+    return ['', '', '', '', '', ''];
 }
 
 function Questions({ initialData, Questions, match }) {
