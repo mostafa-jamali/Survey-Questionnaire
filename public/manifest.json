@@ -1,25 +1,46 @@
 {
   "short_name": "Soally",
-  "name": "Soally CRM plateForm",
+  "name": "Soally CRM platForm",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "question-16.png",
+      "sizes": "16x16",
+      "type": "image/x-icon",
+      "purpose": "any maskable"
     },
     {
-      "src": "favicon.ico",
-      "type": "image/png",
-      "sizes": "192x192"
+      "src": "question-24.png",
+      "sizes": "24x24",
+      "type": "image/x-icon",
+      "purpose": "any maskable"
     },
     {
-      "src": "favicon.ico",
+      "src": "question-32.png",
+      "sizes": "32x32",
+      "type": "image/x-icon",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "question-64.png",
+      "sizes": "64x64",
+      "type": "image/x-icon",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "question-128.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "128x128",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "question-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#fd5722",
-  "background_color": "#ff0000"
+  "background_color": "#a8ff78"
 }
